@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    /* Alinha o menu e o conteúdo lado a lado */
+    padding: 20px;
+}
+
+.menu {
+    width: 200px;
+    /* Define a largura fixa para o menu */
+    border-right: 1px solid #ccc;
+    padding: 10px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    display: block;
+}
+
+.menu li a:hover {
+    background-color: #ddd;
+}
+
+.content {
+    flex: 1;
+    /* Faz o conteúdo ocupar o espaço restante */
+    padding: 10px;
+}
+
+.tabela {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tabela th,
+.tabela td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tabela th {
+    background-color: #f2f2f2;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-top: 1px solid #ccc;
+    margin-top: auto;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contatos,
+.redes-sociais {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.contatos h4,
+.redes-sociais h4 {
+    margin-bottom: 8px;
+}
+
+.contatos p {
+    margin-bottom: 5px;
+}
+
+.redes-sociais ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.redes-sociais ul li {
+    margin-bottom: 3px;
+}
+
+.redes-sociais ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.redes-sociais ul li a:hover {
+    text-decoration: underline;
+}
